@@ -1,18 +1,30 @@
-## Getting Started
+# Smart TV Simulator
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descrição
 
-## Folder Structure
+Este projeto simula o funcionamento básico de uma Smart TV, permitindo ligar/desligar, trocar de canal e ajustar o volume.
 
-The workspace contains two folders by default, where:
+## 📂 Estrutura do Projeto
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+O projeto contém duas classes principais:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **`SmartTv`**: Representa a TV com atributos e métodos para controle.
+- **`Usuario`**: Simula um usuário interagindo com a TV.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## ⚙️ Funcionalidades
 
-## Dependency Management
+✅ Ligar/Desligar a TV  
+✅ Trocar de canal  
+✅ Aumentar e diminuir o volume  
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 🚀 Como Executar
+
+1. Compile os arquivos Java:
+   ```sh
+   javac SmartTv.java Usuario.java
+   ```
+2. Execute a classe `Usuario`:
+   ```sh
+   java Usuario
+   ```
+
