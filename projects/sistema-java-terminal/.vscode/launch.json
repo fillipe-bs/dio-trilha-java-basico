@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AboutMeScanner",
+            "request": "launch",
+            "mainClass": "AboutMeScanner",
+            "projectName": "sistema-java-terminal_428214bd"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -21,7 +28,6 @@
                 "31",
                 "75.5"
             ]
-            // "projectName": "java-terminal_51723bf5"
         }
     ]
 }
