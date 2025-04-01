@@ -52,8 +52,11 @@ public class Estabelecimento {
         atendente.anotarPedido();
         cozinheiro.adicionarLancheNoBalcao();
         atendente.servirMesa();
+        cliente.fazerPedido();
+        atendente.anotarPedido();
+        cozinheiro.adicionarLancheNoBalcao();
+        atendente.servirMesa();
         cliente.realizarPagamento();
         atendente.limparMesa();
-        
     }
 }
