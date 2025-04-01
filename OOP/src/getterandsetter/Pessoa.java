@@ -1,4 +1,4 @@
-package conceitos;
+package getterandsetter;
 
 public class Pessoa {
     private String name;

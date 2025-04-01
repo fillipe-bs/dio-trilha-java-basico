@@ -1,4 +1,4 @@
-package conceitos;
+package getterandsetter;
 
 public enum StatusCivil {
     SOLTEIRO,
