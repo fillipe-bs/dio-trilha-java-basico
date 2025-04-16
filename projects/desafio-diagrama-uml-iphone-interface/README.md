@@ -23,7 +23,7 @@ classDiagram
     }
 
     class AparelhoTelefonico {
-        +ligar(numero: String)
+        +ligar(String numero)
         +atender()
         +iniciarCorreioVoz()
     }
