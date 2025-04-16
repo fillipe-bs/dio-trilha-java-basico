@@ -19,7 +19,7 @@ classDiagram
     class ReprodutorMusical {
         +tocar()
         +pausar()
-        +selecionarMusica(musica: String)
+        +selecionarMusica(String musica)
     }
 
     class AparelhoTelefonico {
@@ -29,7 +29,7 @@ classDiagram
     }
 
     class NavegadorInternet {
-        +exibirPagina(url: String)
+        +exibirPagina(String url)
         +adicionarNovaAba()
         +atualizarPagina()
     }
