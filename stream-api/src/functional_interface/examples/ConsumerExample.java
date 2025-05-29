@@ -45,7 +45,7 @@ public class ConsumerExample {
         //         System.out.println(n);
         //     }
         // });
-        //Dispensou o Stream, aplicando forEach diretamente na List. Mais direto, mas sem as vantagens do pipeline do Stream (como filter, map, etc.).
+        // Dispensou o Stream, aplicando forEach diretamente na List. Mais direto, mas sem as vantagens do pipeline do Stream (como filter, map, etc.).
 
     }
 }
