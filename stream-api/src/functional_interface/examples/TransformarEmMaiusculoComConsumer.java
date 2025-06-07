@@ -3,7 +3,7 @@ package functional_interface.examples;
 import java.util.function.Consumer;
 import java.util.List;
 
-public class TransformarEmMaiusculo {
+public class TransformarEmMaiusculoComConsumer {
 
     public static void main(String[] args) {
         

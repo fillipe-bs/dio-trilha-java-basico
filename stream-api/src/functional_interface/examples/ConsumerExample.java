@@ -6,6 +6,10 @@ import java.util.function.Consumer;
 
 public class ConsumerExample {
 
+    // Consumer: Executa uma ação usando um valor recebido. Não retorna nada.
+    // Consumer<T> nome = valor -> açãoCom(valor);
+    // Exemplo: Imprimir números pares de uma lista usando Consumer.
+
     public static void main(String[] args) {
 
         List<Integer> numeros = Arrays.asList(10, 11, 12, 13, 14, 15);
