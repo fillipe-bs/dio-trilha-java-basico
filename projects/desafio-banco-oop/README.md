@@ -1,18 +1,29 @@
-## Getting Started
+# Desafio Banco OOP - Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Resumo
 
-## Folder Structure
+Projeto orientado a objetos em Java que simula operações bancárias básicas como depósito, saque, transferência e emissão de extrato. O sistema utiliza abstração, herança e encapsulamento para modelar um banco com contas correntes, contas poupança e clientes.
 
-The workspace contains two folders by default, where:
+## Descrição das Classes
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- **Banco**  
+  Classe principal (`main`) que executa as operações bancárias simuladas, cria clientes e contas e imprime os extratos e a lista de contas criadas.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **IConta**  
+  Interface que define o contrato para todas as contas bancárias, exigindo os métodos `sacar`, `depositar`, `transferir` e `imprimirExtrato`.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- **Conta**  
+  Classe abstrata que implementa a interface `IConta` e fornece a lógica comum para contas, como controle de saldo, número da agência, e uma lista estática de todas as contas criadas.
 
-## Dependency Management
+- **ContaCorrente**  
+  Subclasse de `Conta` que representa uma conta corrente. Personaliza a impressão do extrato.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- **ContaPoupanca**  
+  Subclasse de `Conta` que representa uma conta poupança. Também personaliza a impressão do extrato.
+
+- **Cliente**  
+  Classe simples que representa o cliente da conta, armazenando apenas o nome.
+
+## Conclusão
+
+Este projeto demonstra os princípios fundamentais da programação orientada a objetos em Java em um cenário bancário. A estrutura modular permite fácil expansão e reutilização de código, sendo ideal para fins didáticos e exercícios de modelagem OOP.
